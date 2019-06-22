@@ -2,6 +2,7 @@
 #ifndef SMART_H
 #define SMART_H
 #include <iostream>
+#include <stdarg.h>
 using namespace std;
 class temp {
 	int t;
@@ -42,4 +43,32 @@ public:
 		return ptr;
 	}
 };
+int sum(int a, ...) {
+	int *p = &a;
+	int sm = 0;
+	for (; --a;) {
+		sm += *(++p);
+	}
+	return sm;
+}
+int sum2(int k,...) {//число элементов не передается, последним считается элемент перед элементом с нулевым значением
+	int *p = &k;
+	int sum = 0;
+	while (*p) {
+		sum += *(p++);
+	}
+	return sum;
+}
+void anytype(int count, bool type, ...) {
+	int sumi = 0;
+	double sumd = 0.0;
+	va_list args;//нужно подключить stdarg.h
+	va_start(args, count); 
+	va_arg(args, bool);//перемещает указатель к следующему элементу
+	while (count--) {
+		(type) ? sumi += va_arg(args, int) : sumd += va_arg(args, double);
+	}
+	va_end(args);
+	(type) ? cout << sumi : cout << sumd;
+}
 #endif SMART_H
