@@ -9,12 +9,11 @@ using namespace std;
 void ps();//pause+enter
 void task1();
 void task2();//Queue
-void task3();//QueueRing
+//void task3();//QueueRing
 void task4();//QueuePriority
 int main() {
 	srand(time(0));
-	//task1();
-	task2();
+	task4();
 	ps();
 	return 0;
 }
@@ -44,4 +43,14 @@ void ps() {
 	cout << "Press enter!" << endl;
 	char cgl[10];
 	cin.getline(cgl, '\n');
+}
+void task4() {
+	QueuePri st(10);
+	
+	for (int i = 0; i < 3;i++) {
+		st.add(rand() % 10, rand() % 12);
+	}
+	st.show();
+	st.extract();
+	st.show();
 }

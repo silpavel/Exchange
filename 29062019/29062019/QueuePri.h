@@ -9,7 +9,7 @@ class QueuePri {
 public:
 	QueuePri(int);
 	~QueuePri();
-	int add(int c);
+	int add(int c,int p);
 	int extract();
 	void clear();
 	bool isEmpty();
