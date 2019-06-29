@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\student_2\source\repos\29062019\29062019\main.cpp(12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  QueueRing.cpp
+  Создание кода...
+  29062019.vcxproj -> C:\Users\student_2\source\repos\29062019\Debug\29062019.exe
