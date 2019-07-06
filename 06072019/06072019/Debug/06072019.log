@@ -1,0 +1,4 @@
+﻿main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: char __thiscall TestClass<char>::testfunc(void)" (?testfunc@?$TestClass@D@@QAEDXZ) в функции _main
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: int __thiscall TestClass<int>::testfunc(void)" (?testfunc@?$TestClass@H@@QAEHXZ) в функции _main
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: double __thiscall TestClass<double>::testfunc(void)" (?testfunc@?$TestClass@N@@QAENXZ) в функции _main
+C:\Users\student_2\source\repos\06072019\Debug\06072019.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
