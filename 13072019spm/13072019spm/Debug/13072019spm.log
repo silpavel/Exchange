@@ -1,0 +1,18 @@
+﻿  Tree.cpp
+c:\users\student_2\source\repos\13072019spm\13072019spm\tree.cpp(110): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note:  см. объявление "strcpy"
+c:\users\student_2\source\repos\13072019spm\13072019spm\tree.cpp(111): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note:  см. объявление "strcpy"
+c:\users\student_2\source\repos\13072019spm\13072019spm\tree.cpp(112): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note:  см. объявление "strcpy"
+  main.cpp
+c:\users\student_2\source\repos\13072019spm\13072019spm\main.cpp(9): error C2601: game: недопустимые локальные определения функций
+  c:\users\student_2\source\repos\13072019spm\13072019spm\main.cpp(7): note: эта строка содержит скобку "{", которая пока не имеет парной
+c:\users\student_2\source\repos\13072019spm\13072019spm\main.cpp(20): error C2039: op: не является членом "Elem"
+  c:\users\student_2\source\repos\13072019spm\13072019spm\tree.h(5): note:  см. объявление "Elem"
+c:\users\student_2\source\repos\13072019spm\13072019spm\main.cpp(20): error C2660: strcpy: функция не принимает 1 аргументов
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note:  см. объявление "strcpy"
+c:\users\student_2\source\repos\13072019spm\13072019spm\main.cpp(21): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+c:\users\student_2\source\repos\13072019spm\13072019spm\main.cpp(19): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note:  см. объявление "strcpy"
+  Создание кода...
